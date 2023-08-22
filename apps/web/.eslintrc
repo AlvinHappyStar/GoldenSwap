@@ -40,6 +40,7 @@
     "max-classes-per-file": 0
     // End temporary rules
   },
+  "parser" : "babel",
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": true
