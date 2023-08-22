@@ -57,15 +57,10 @@ const config = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    // remotePatterns: [
-    //   {
-    //     protocol: 'https',
-    //     hostname: 'static-nft.pancakeswap.com',
-    //     pathname: '/mainnet/**',
-    //   },
-    // ],
     loader: 'imgix',
     path: 'https://pancakeswap.finance/',
+    // unoptimized: true,
+    // domains: ['static-nft.pancakeswap.com'],
   },
   async rewrites() {
     return [
